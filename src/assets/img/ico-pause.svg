@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="10px" viewBox="0 0 7 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>pause</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ui-app-stroogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-chef---produtos" transform="translate(-286.000000, -287.000000)" fill="#E02020" fill-rule="nonzero">
+            <g id="card-produto-G-chef" transform="translate(5.000000, 226.000000)">
+                <g id="bt" transform="translate(270.000000, 52.000000)">
+                    <path d="M12.875,9 L12.875,19 L11,19 L11,9 L12.875,9 Z M17.875,9 L17.875,19 L16,19 L16,9 L17.875,9 Z" id="pause"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

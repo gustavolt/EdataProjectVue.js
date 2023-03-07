@@ -1,0 +1,16 @@
+{
+  "appId": "com.br.stroogo.app",
+  "appName": "Stroogo",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "logo",
+      "iconColor": "#488AFF",
+      "sound": "beep.wav"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}

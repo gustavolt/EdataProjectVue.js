@@ -1,0 +1,574 @@
+.box-login {
+	width: 100%;
+	max-width: 290px;
+}
+
+.box-login .logo {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 30px 0;
+}
+
+.login { position: absolute; }
+
+.box-login a { color: #fff; font-size: 13px; padding-left: 20px; }
+
+section.box-cta-novaconta {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 1
+}
+
+.bar-cta-novaconta {
+	height: 80px;
+	position: relative;
+}
+
+.bar-cta-novaconta:before {
+	content: "";
+	width: 100%;
+	height: 100px;
+	background: #C31E1E;
+	transform: skewY(-5deg);
+	position: absolute;
+	top: -40px;
+	left: 0;
+	pointer-events: none;
+}
+
+.bar-cta-novaconta .bar-cta { max-width: 290px; }
+
+.bar-bts-criar-conta {
+    padding-top: 20px;
+    display: block;
+}
+.bar-endereco-top { width: 100%; display: block; }
+.bar-endereco-top:after {
+	content: "";
+	display: block;
+	width: 80%;
+	margin: 4px auto 0 auto;
+	height: 1px;
+	background: #4d4d4d20
+}
+
+.bar-endereco-top a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	font-size: 13px;
+	line-height: 18px;
+	color: #4d4d4d;
+	font-weight: 500;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-top: 6px;
+}
+
+.bar-endereco-top a .seta {
+	background: url(../assets/img/seta-red1.svg) no-repeat center;
+	width: 12px;
+	height: 12px;
+	display: block;
+}
+
+.carrosselStroogo .item { margin-left: 6px; }
+
+.carrossel-categorias {
+	padding: 20px 0;
+}
+
+.bar-carrossel-cat .item {
+	max-width: 80px;
+}
+
+.bar-carrossel-cat .item a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.bar-carrossel-cat .item a img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+}
+
+.bar-carrossel-cat .item a span {
+	display: block;
+	white-space: nowrap;
+	padding-top: 4px;
+	color: #000;
+	font-size: 13px;
+    font-weight: 400;
+}
+
+.bar-carrossel-chefs .item {
+	display: flex;
+	flex-direction: column;
+	max-width: 120px;
+}
+
+.bar-carrossel-chefs .item a .bar-thumb {
+	position: relative;
+}
+
+.bar-carrossel-chefs .item a .bar-thumb img {
+	height: 120px;
+	width: 120px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	display: block;
+}
+
+.bar-carrossel-chefs .item a .avaliacao {
+	position: absolute;
+    bottom: -5px;
+    right: 5px;
+    background: #fff;
+    padding: 0px 6px;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.item .nota {
+	display: flex; align-items: center;
+	font-weight: 700;
+}
+
+.item .nota:before {
+	content: "";
+	background: url(../assets/img/star.svg) no-repeat center;
+	width: 13px;
+	height: 13px;
+	display: block;
+	margin-right: 2px;
+}
+
+.bar-carrossel-chefs .item a .bar-text {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.bar-list-produtos .item {
+	padding: 6px;
+	box-sizing: border-box;
+	margin-bottom: 12px;
+}
+
+.bar-list-produtos .item-sacola {
+	border-bottom: solid 1px #D1CECE;
+}
+
+.bar-list-produtos .item-sacola .bar-thumb {
+	position: relative;
+}
+
+.bar-list-produtos .item-sacola .bar-thumb .qtd {
+	font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background: #E02020;
+    color: #fff;
+    position: absolute;
+    top: 22px;
+    left: -12px;
+}
+
+
+.bar-list-produtos .item:hover { background: #F3F3F3 }
+
+.bar-list-produtos .item a {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item a .bar-text {
+	padding: 10px;
+	box-sizing: border-box;
+	flex-grow: 1
+}
+
+.item a .bar-text .preco {
+	padding-top: 3px;
+}
+
+.item a .bar-thumb img {
+	width: 74px;
+	height: 74px;
+	display: block;
+}
+
+.bar-list-produtos-min { border-bottom: solid 1px #D1CECE; }
+.bar-list-produtos-min .bar-thumb { width: 50px; }
+.bar-list-produtos-min .bar-thumb img { max-width: 100%; width: 100% }
+.bar-list-produtos-min .item-sacola .bar-thumb .qtd { top: 10px; left: -14px; }
+.bar-list-produtos-min .item-sacola { border-bottom: none; }
+
+.bar-list-produtos-chef .produto-ativo { background: #F1F7EA; }
+.bar-list-produtos-chef .produto-ativo:hover { background: #E8F6D7; }
+.bar-list-produtos-chef .produto-pausado { background: #FFF5F5; }
+.bar-list-produtos-chef .produto-pausado:hover { background: #FFE9E9; }
+.bar-list-produtos-chef .bar-text { flex-grow: 1; padding-left: 8px; display: flex; flex-direction: column; justify-content: space-between; }
+.bar-list-produtos-chef .bar-bts-filtros { justify-content: flex-end; }
+
+.bar-list-enderecos .item {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px;
+	box-sizing: border-box;
+	margin-bottom: 12px;
+	border: solid 1px #fff;
+}
+.bar-list-enderecos .item.ativo {
+	border: solid 1px #E02020;
+}
+
+.bar-list-enderecos strong, .bar-list-enderecos span {
+	display: block;
+}
+
+.bar-list-enderecos .apelido { padding-bottom: 6px; }
+.bar-list-enderecos .complemento { padding-top: 6px; }
+
+.bar-list-enderecos .item .bar-icons-cta {
+	display: flex;
+	flex-direction: column;
+}
+
+.bar-list-enderecos .item .bar-icons-cta li { margin-bottom: 10px; }
+
+.bar-list-card-chefs-max { padding: 20px 0; }
+
+.bar-list-card-chefs-max .item { position: relative; margin-bottom: 12px; }
+.bar-list-card-chefs-max .item:hover { background: #F3F3F3 }
+
+.bar-list-card-chefs-max .item a.card {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.bar-list-card-chefs-max .item a.card .bar-thumb img {
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+
+.bar-list-card-chefs-max .item a.card .bar-text {
+	flex-grow: 1;
+	padding: 5px 8px;
+	box-sizing: border-box;
+}
+
+.bar-list-card-chefs-max .item a.card .bar-text span.ativa { color: #000; }
+
+
+.item .taxa-entrega { padding-top: 2px; }
+.item .distancia:before {
+	content: "";
+ 	background: url(../assets/img/map-min.svg) no-repeat center;
+ 	height: 12px;
+ 	width: 28px;
+ 	display: block;
+ 	margin-right: 4px;
+}
+
+.bar-list-card-chefs-max .item a.card .bar-text .taxa { padding-left: 4px; }
+
+
+.bar-list-card-chefs-max .item .favoritar:after {
+    content: "";
+    background: url(../assets/img/favorito-min.svg) no-repeat center;
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+
+.bar-list-card-chefs-max .item.favorito .favoritar:after {
+    content: "";
+    background: url(../assets/img/favorito-min-red.svg) no-repeat center;
+}
+
+.bar-bts-ordernar-cat .item {
+	padding-bottom: 20px;
+}
+
+.HeaderChef { display: flex; justify-content: space-between; }
+.HeaderChef .bar-text { flex-grow: 1; padding: 8px 8px 0 0; position: relative; }
+.HeaderChef .bar-text .avaliacao { padding: 4px 0; }
+.buscaNoChef { padding: 16px 0; }
+.HeaderChef .favoritar:after {
+    content: "";
+    background: url(../assets/img/favorito-min.svg) no-repeat center;
+    background-size: 20px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 16px;
+}
+.HeaderChef.favorito .favoritar:after {
+    content: "";
+    background: url(../assets/img/favorito-min-red.svg) no-repeat center;
+    background-size: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.HeaderChef .bar-thumb {
+	width: 110px;
+}
+
+.HeaderChef .bar-thumb img { max-width: 100%; }
+
+.HeaderChefMin { margin-bottom: 12px; }
+.HeaderChefMin .bar-text { padding: 0 8px 0 0 }
+.HeaderChefMin .bar-thumb {
+	width: 65px;
+}
+
+.bar-foto-produto { margin-bottom: 8px }
+.bar-foto-produto .bar-tit1 {
+	position: absolute;
+    left: 0;
+    top: 18px;
+    z-index: 10;
+}
+
+.bar-foto-produto .bar-foto {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-foto-produto .item {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-foto-produto .item .blur {
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2); 
+  	backdrop-filter: blur(8px);
+ }
+
+.bar-foto-produto .foto-produto {
+	max-width: 500px;
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+   
+}
+
+.content-bar-foto .owl-theme .owl-nav.disabled+.owl-dots {
+	position: absolute;
+	bottom: 5px;
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-bar-foto .owl-theme .owl-dots .owl-dot span {
+	background: #E02020;
+	width: 6px;
+	height: 6px;
+	margin: 5px 2px;
+	transition: .2s
+}
+.content-bar-foto .owl-theme .owl-dots .owl-dot.active span {
+	background: #E02020;
+	width: 12px;
+	transition: .2s
+}
+
+.bar-text-produto .preco { padding-top: 2px; }
+.card-chef-min-produto {
+	padding: 12px;
+	margin: 17px 0;
+}
+
+.card-chef-min-produto .nomechef:before {
+	content: "";
+    background: url(../assets/img/ico-chef.svg) no-repeat left;
+    background-size: 14px;
+    height: 20px;
+    width: 28px;
+    display: block;
+    margin-right: 4px;
+}
+
+.box-observacao .header { padding: 0 12px 7px 12px; }
+.box-observacao .icon:before {
+	content: "";
+    background: url(../assets/img/ico-chat.svg) no-repeat left;
+    background-size: 14px;
+    height: 12px;
+    width: 28px;
+    display: block;
+    margin-right: 4px;
+}
+
+.edit-item-sacola .bar-tit1 {
+	text-align: center;
+}
+
+.item-pedido { padding: 0 12px 6px 12px }
+.item-pedido li:not(li:last-child) {
+	padding: 0 8px 0 0;
+}
+.item-pedido .qtd { 
+	background: #E0E0E0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	font-size: 14px;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+ }
+.item-pedido .nome-item { flex-grow: 1; }
+.totais-pedido { padding: 12px; border-bottom: solid 1px #D1CECE; }
+.pagamento-bar {
+	padding: 0 12px;
+}
+.pagamento-options {
+	padding: 8px 0;
+}
+
+.bar-code-pix {
+	background: #F7F7F7;
+	border: solid 1px #32BCAD;
+	border-radius: 5px;
+	padding: 25px 10px;
+	margin: 18px 0;
+}
+
+.bar-code-pix textarea {
+	width: 100%;
+	height: 100px;
+	border: 0;
+	background: 0;
+	font-size: 15px;
+	color: #E02020;
+	margin-bottom: 12px;
+	display: block;
+}
+
+.bar-content-hist-pedidos .data { display: block; margin-bottom: 12px; }
+.card-pedido { background: #fff; border: solid 1px #DCDCDC; border-radius: 20px; padding: 12px; box-sizing: border-box; margin-bottom: 12px; box-shadow: 0px 13px 15px -13px rgb(0 0 0 / 5%), inset 0px -9px 0px -6px rgb(0 0 0 / 10%) }
+.card-pedido .header { border-bottom: solid 1px #dcdcdc; padding-bottom: 6px; }
+.card-pedido .header .bar-thumb { width: 40px; padding-right: 12px; }
+.card-pedido .header .bar-thumb img { width: 100%; max-width: 100%; }
+.card-pedido .header .bt-avancar { position: absolute; right: 0px; transition: .2s }
+.card-pedido .header .bt-avancar:hover { right: -5px; transition: .2s }
+.card-pedido .list-itens { padding: 12px 0; }
+.card-pedido .list-itens li { padding: 4px 0; }
+.card-pedido .list-itens .qtd { width: 20px; height: 20px; border-radius: 100px; display: flex; align-items: center; justify-content: center ;background: #E0E0E0; margin-right: 8px; }
+.icon-verify { width: 20px; height: 20px; display: block; margin-right: 8px; }
+.icon-verify:before { 
+	content: "";
+	background: url(../assets/img/verify-min.svg) no-repeat center;
+	width: 20px;
+	height: 20px;
+	display: block;
+ }
+.card-pedido .bar-avaliacao { border-top: solid 1px #dcdcdc; padding: 12px 0 4px 0 }
+
+.crono-red:before { content: ""; background: url(../assets/img/cronometro-red.svg) no-repeat center; width: 26px; height: 31px; display: block; margin-right: 5px; }
+.crono-verde:before { content: ""; background: url(../assets/img/cronometro-verde.svg) no-repeat center; width: 26px; height: 31px; display: block; margin-right: 5px; }
+.crono-light:before { content: ""; background: url(../assets/img/cronometro-light.svg) no-repeat center; width: 26px; height: 31px; display: block; margin-right: 5px; }
+.delivery-verde:before { content: ""; background: url(../assets/img/ico-delivery-verde.svg) no-repeat center; width: 34px; height: 30px; display: block; margin-right: 5px; }
+.card-pedido-chef .list-itens .qtd { margin-right: 0px; }
+.card-pedido-chef .bar-cta { border-top: solid 1px #dcdcdc; padding: 12px 0 4px 0; }
+.card-pedido-chef .bar-cta li { width: 40%; }
+.card-pedido-chef .crono-red { margin-right: 20px; color: #E02020 }
+.card-pedido-chef-aceito .bar-cta li { width: 80%; }
+
+.bar-status-pedido-chef { display: flex; justify-content: center; border-bottom: solid 1px #D1CECE; margin-bottom: 15px; }
+.bar-status-pedido-chef span { border-bottom: solid 2px #000; padding-bottom: 12px;  }
+.bar-status-pedido { border-radius: 100px; margin: 12px 0; padding: 12px; }
+
+.bar-confirmar { border-radius: 20px; padding: 16px; }
+.bar-confirmar fieldset { padding: 12px }
+.bar-confirmar input[type="range"] { flex-grow: 1 }
+.bar-confirmar input.displayValue { background: none; border: none; max-width: 30px; font-size: 16px; text-align: right; padding-top: 3px; color: #4d4d4d }
+.bar-confirmar .bar-cta { border-top: 0; }
+.bar-confirmar .bar-cta li { width: 100%; }
+.bar-confirmarData fieldset { padding: 12px 0; width: 40%; }
+.bar-confirmarData input { background: #FFF8E6 }
+
+.pedidos-aguardando .card-pedido-chef { background: #FFFBF2; }
+.pedidos-aguardando .bar-status-pedido-chef span { color: #E02020; border-bottom: #E02020 solid 2px; }
+.pedidos-aceito .card-pedido-chef { background: #F1F7EA; }
+.pedidos-aceito .bar-status-pedido-chef span { color: #325B07; border-bottom: #325B07 solid 2px; }
+.pedidos-aceito .bar-confirmar { background: #EBF2E4; box-shadow: inset 0px 4px 9px -6px rgb(0 0 0 / 20%) }
+.pedidos-concluidos .card-pedido-chef { background: #FFF8E6 }
+.pedidos-concluidos .bar-status-pedido-chef span { color: #C69100; border-bottom: #C69100 solid 2px; }
+.pedidos-concluidos .bar-confirmar { background: #FFF2CF }
+.pedidos-cancelados .card-pedido-chef { background: #fafafa }
+.resultTempo .font-medium { line-height: 10px; }
+
+.card-detalhe-pedido { border: none; }
+.card-detalhe-pedido .bar-list-produtos-min { border-bottom: none; }
+.card-detalhe-pedido .crono-red { margin-right: 0px; }
+.card-detalhe-pedido .observacao:before { content: ""; background: url(../assets/img/alert-min.svg) no-repeat center; width: 17px; min-width: 17px; height: 17px; display: block; margin-right: 5px; }
+
+.bar-controle-cozinha .bar-thumb { width: 35px; height: 35px; min-width: 35px; border-radius: 100px; display: flex; justify-content: center; align-items: center; margin-right: 5px; }
+.bar-controle-cozinha .bar-status { margin-left: 10px; }
+.bar-controle-cozinha .status { line-height: 12px; }
+.bar-controle-cozinha.cozinha-fechada .bar-thumb { background: #FFDEDE; }
+.bar-controle-cozinha.cozinha-fechada .status { color: #E02020; }
+.bar-home-chef-cozinha-fechada { padding-top: 100px; }
+.bar-controle-cozinha.cozinha-aberta .bar-thumb { background: #D0F8A5; }
+.bar-controle-cozinha.cozinha-aberta .status { color: #49751B; }
+
+.bar-home-chef-cozinha-fechada .bar-controle-cozinha { max-width: 480px; margin: 0 auto }
+
+.bar-controles-cozinha { display: flex; align-items: center; justify-content: space-between; margin: 16px 0; }
+.bar-controles-cozinha .bt { width: 24.5%; height: 58px; background: #FAFAFA; border-radius: 4px; display: flex; align-items: flex-end; justify-content: center; font-size: 13px; font-weight: 600; position: relative; box-shadow: inset 0px -19px 0px -16px rgb(0 0 0 / 5%), 0px 6px 2px -3px rgb(0 0 0 / 1%) }
+.bar-controles-cozinha .qtd { width: 21px; height: 21px; border-radius: 100px; background: #eaeaea; color: #000; font-size: 14px; display: flex; align-items: center; justify-content: center; position: absolute; top: 8px; right: 8px; } 
+.bar-controles-cozinha .bt a { padding: 0 0 8px 0; display: block; width: 100%; text-align: center; color: #4d4d4d }
+.bar-controles-cozinha .bt a:after { content: ""; width: 90%; height: 3px; background: none; border-radius: 100px; display: block; margin: 5px auto 0 auto }
+.bar-controles-cozinha .bt.aguardando.ativo { background: #FFF5F5 }
+.bar-controles-cozinha .bt.aguardando.ativo a:after { background: #E02020 }
+.bar-controles-cozinha .bt.aceitos.ativo { background: #F1F7EA }
+.bar-controles-cozinha .bt.aceitos.ativo a:after { background: #325B07 }
+.bar-controles-cozinha .bt.concluidos.ativo { background: #FFF8E6 }
+.bar-controles-cozinha .bt.concluidos.ativo a:after { background: #C69100 }
+.bar-controles-cozinha .bt.aguardando .qtd { background: #E02020; color: #fff; }
+.bar-controles-cozinha .bt.aguardando a { color: #E02020 }
+.bar-controles-cozinha .bt.aceitos .qtd { background: #D0F8A5; color: #325B07; }
+.bar-controles-cozinha .bt.aceitos a { color: #325B07 }
+.bar-controles-cozinha .bt.concluidos .qtd { background: #FFE8AA; color: #C69100; }
+.bar-controles-cozinha .bt.concluidos a { color: #C69100 }
+.bar-controles-cozinha .bt.cancelados.ativo { background: #E8E8E8 }
+.bar-controles-cozinha .bt.cancelados.ativo a:after { background: #4d4d4d }
+
+.carduser { margin-bottom: 12px; }
+.carduser .bar-text { width: 100%; }
+.carduser .bar-bts-filtros { justify-content: flex-end; }
+
+.card-horario { border-radius: 6px; padding: 15px; box-sizing:  border-box; border: solid 1px #BEF08A; margin-bottom: 8px; }
+.card-horario .boxHorario { padding-top: 8px; }
+.card-horario .btAdd1,.card-horario .btRemove1 { width: 50px; min-width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; }
+.card-horario .btAdd1:before,.card-horario .btRemove1:before { margin-right: 0px; }
+
+.card-pedido-relatorio { background: #FFF8E6; border: 0; padding: 12px; border-bottom: 12px; border-radius: 20px; margin-bottom: 12px; }
+.card-pedido-relatorio ul.list-itens li { padding: 2px 0; }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>seta</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ui-app-stroogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="categoria" transform="translate(-15.000000, -16.000000)" fill="#E02020" fill-rule="nonzero">
+            <g id="header" transform="translate(5.000000, 14.000000)">
+                <polygon id="seta" transform="translate(14.800000, 10.000000) scale(-1, 1) translate(-14.800000, -10.000000) " points="10.9938406 18 10 17.0758 17.6052861 10 10 2.924194 10.9938406 2 19.6 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="2px" viewBox="0 0 16 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ico mais</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ui-app-stroogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-chef---configurações" transform="translate(-309.000000, -342.000000)" fill="#E02020" fill-rule="nonzero">
+            <g id="dia" transform="translate(5.000000, 279.000000)">
+                <g id="input-time" transform="translate(12.000000, 39.000000)">
+                    <g id="bt-mais" transform="translate(275.000000, 0.000000)">
+                        <polygon id="ico-mais" points="17 25.8571429 17 24.1428571 33 24.1428571 33 25.8571429"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

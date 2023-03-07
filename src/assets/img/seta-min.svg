@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>seta</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ui-app-stroogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="categoria" transform="translate(-189.000000, -73.000000)" fill="#4D4D4D" fill-rule="nonzero">
+            <g id="filtro-select" transform="translate(10.000000, 57.000000)">
+                <polygon id="seta" transform="translate(184.500000, 19.000000) rotate(90.000000) translate(-184.500000, -19.000000) " points="182.517625 24 182 23.422375 185.961087 19 182 14.5776213 182.517625 14 187 19"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
